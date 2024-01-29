@@ -1,0 +1,45 @@
+.littleInfo {
+  background-color: var(--antiflash-white);
+  color: var(--onyx);
+  border-radius: 5px;
+  padding: 10px;
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+.littleInfo > div b {
+  display: block;
+}
+.littleInfo > div p {
+  max-width: 80%;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+}
+.littleInfo > div input {
+  width: 90%;
+}
+.littleInfo > div textarea {
+  margin-top: 5px;
+  width: 95%;
+  resize: vertical;
+  padding: 5px;
+  min-height: 100px;
+  max-height: 200px;
+  font-size: 1.3em;
+}
+.littleInfo > div {
+  padding-left: 10px;
+  border-left: 2px solid var(--slate-gray);
+}
+
+.problem > div {
+  width: 100%;
+}
+.problem {
+  grid-template-columns: 1fr 1fr;
+}
+.problem > div:last-child {
+  grid-column: 1 / 3;
+}

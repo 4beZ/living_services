@@ -1,0 +1,17 @@
+.main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main > div {
+  background-color: var(--eerie-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

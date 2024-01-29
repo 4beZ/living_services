@@ -1,0 +1,23 @@
+.errors {
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.errors > div {
+  color: var(--onyx);
+  width: 80%;
+  height: auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--antiflash-white);
+}
+.errors > div:hover {
+  cursor: pointer;
+}

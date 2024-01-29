@@ -1,0 +1,9 @@
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.head button {
+  justify-self: flex-end;
+}

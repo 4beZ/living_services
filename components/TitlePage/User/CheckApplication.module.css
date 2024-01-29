@@ -1,0 +1,30 @@
+.main {
+  transition: max-height 1s ease-in-out;
+  height: auto;
+  margin-bottom: 30px;
+}
+.main > h1 {
+  margin-bottom: 15px;
+}
+
+.inputInfo > input {
+  width: calc(100% - 15px);
+}
+.inputInfo > button {
+  width: 40%;
+  margin-top: 10px;
+}
+
+.line {
+  background-color: var(--platinum);
+  color: var(--eerie-black);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.hidden {
+  max-height: 250px;
+}
+.visible {
+  max-height: 100vh;
+}

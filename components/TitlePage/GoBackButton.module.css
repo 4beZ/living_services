@@ -1,0 +1,11 @@
+.round {
+  --side: 20px;
+  height: var(--side);
+  width: var(--side);
+  background-color: var(--onyx);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}

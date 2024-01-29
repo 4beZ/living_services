@@ -1,0 +1,60 @@
+.help.help2 {
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  width: 150px;
+}
+.help > section {
+  padding: 10px;
+  width: 150px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  height: 150px;
+}
+.help > section b {
+  font-size: 1.3em;
+}
+.help > section:first-of-type {
+  --blockBack: rgba(255, 255, 255, 0.4);
+  color: var(--outer-space);
+  background: -webkit-linear-gradient(
+    135deg,
+    rgb(191, 255, 196),
+    rgb(52, 255, 61)
+  );
+  background: -moz-linear-gradient(
+    135deg,
+    rgb(191, 255, 196),
+    rgb(52, 255, 61)
+  );
+  background: linear-gradient(135deg, rgb(191, 255, 196), rgb(52, 255, 61));
+}
+.help > section:last-of-type {
+  --blockBack: rgba(0, 0, 0, 0.3);
+  background: -webkit-linear-gradient(
+    135deg,
+    rgb(255, 144, 144),
+    rgb(255, 52, 52)
+  );
+  background: -moz-linear-gradient(
+    135deg,
+    rgb(255, 144, 144),
+    rgb(255, 52, 52)
+  );
+  background: linear-gradient(135deg, rgb(255, 144, 144), rgb(255, 52, 52));
+}
+.help .littleGrid {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+.help .littleGrid > div {
+  background-color: var(--blockBack);
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px dashed var(--outer-space);
+}

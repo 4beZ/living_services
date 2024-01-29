@@ -1,0 +1,16 @@
+.block {
+  background-color: var(--back);
+  border-radius: 15px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 20px 49px -13px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 20px 49px -13px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 20px 49px -13px rgba(0, 0, 0, 0.5);
+}
+.block b {
+  font-size: 2em;
+}
